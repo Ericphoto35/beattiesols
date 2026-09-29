@@ -1,0 +1,26 @@
+export const company = {
+  name: "Beattie Sols",
+  legalName: "BEATTIE SOLS",
+  form: "société à responsabilité limitée (SARL)",
+  capital: "200 000 €",
+  address: "3 route de Melesse, La Goberdère, 35520 La Mézière",
+  shortAddress: "3 route de Melesse, 35520 La Mézière",
+  phoneDisplay: "06 22 28 54 76",
+  phoneTel: "0622285476",
+  siren: "752 783 399",
+  siret: "752 783 399 00039",
+  tva: "FR89 752783399",
+  rcs: "752 783 399 R.C.S. Rennes",
+  ape: "43.33Z — Travaux de revêtement des sols et des murs",
+  director: "Anthony Beattie",
+  directorRole: "gérant",
+  host: {
+    name: "Hostinger International Ltd.",
+    address: "61 Lordou Vironos Street, 6023 Larnaca, Chypre",
+    url: "https://www.hostinger.fr",
+  },
+  analyticsId: "G-CYK8ZF6T49",
+  vimeoSrc: "https://player.vimeo.com/video/168791578?dnt=1&autoplay=0&controls=1&loop=0&playsinline=1",
+  mapsSrc:
+    "https://maps.google.com/maps?q=3%20route%20de%20melesse%2035520%20La%20Mezi%C3%A8re&t=m&z=13&ie=UTF8&output=embed",
+} as const;
